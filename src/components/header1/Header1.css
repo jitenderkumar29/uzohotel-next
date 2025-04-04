@@ -1,0 +1,19 @@
+.header1 {
+  background: var(--bg-header1);
+  /* font-size: 2rem; */
+}
+
+.logo {
+  color: var(--text-logo-color);
+}
+
+.mobile-menu {
+  background: var(--bg-header1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .header1 {
+    padding: 0.75rem 1rem; /* Adjust padding for mobile */
+  }
+}

@@ -1,8 +1,15 @@
 @import "tailwindcss";
+/* @import "App.scss"; */
 
 :root {
+  --text-white: white;
   --background: #ffffff;
   --foreground: #171717;
+  --bg-header1: #131921;
+  --bg-header2: #232f3e;
+  --text-color: #ffffff;
+  --text-logo-color: #f26622;
+  --text-hover-color: #f26622;
 }
 
 @theme inline {
@@ -12,7 +19,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
