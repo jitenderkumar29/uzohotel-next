@@ -1,5 +1,16 @@
 @import "tailwindcss";
 /* @import "App.scss"; */
+/* *{
+  margin: 0;
+  padding: 0;
+  width: fit-content;  
+} */
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+/* box-sizing: border-box; */
+/* width: fit-content; */
 
 :root {
   --text-white: white;
